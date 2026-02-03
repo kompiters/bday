@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 p-0 overflow-hidden bg-black text-white fixed inset-0;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Custom Glass Utilities */
+.glass-panel {
+  @apply bg-white/10 backdrop-blur-xl border border-white/20 shadow-xl;
+}
+
+.glass-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70;
+}
