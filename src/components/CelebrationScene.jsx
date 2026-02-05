@@ -380,7 +380,7 @@ const CelebrationScene = () => {
 
             <style>{`
                 @keyframes scroll {
-                    0% { transform: translateY(100%); }
+                    0% { transform: translateY(60%); }
                     100% { transform: translateY(-130%); }
                 }
                 .no-scrollbar::-webkit-scrollbar {
