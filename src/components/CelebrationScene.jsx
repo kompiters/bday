@@ -86,7 +86,7 @@ const CelebrationScene = () => {
     const handleAcceptProposal = () => {
         setProposalResponse('accepted');
         setShowConfetti(true);
-        sendEmail('YEMEK TEKLİFİNİ KABUL ETTİ! (Accepted Proposal)');
+        sendEmail('Pasta TEKLİFİNİ KABUL ETTİ! (Accepted Proposal)');
     };
 
     const [hasScrolled, setHasScrolled] = useState(false);
@@ -327,8 +327,8 @@ const CelebrationScene = () => {
 
                                     <h3 className="text-2xl font-bold text-white text-center mb-4">Madem beğendin...</h3>
                                     <p className="text-white/90 text-center mb-8 text-lg leading-relaxed">
-                                        Yarın akşam ne yapıyorsun? <br />
-                                        Şurada güzel bir yemek yer miyiz? 😇
+                                        Birdahaki organizasyonda  <br />
+                                        Doğum günü pastanız benden 😇
                                     </p>
 
                                     <div className="grid grid-cols-2 gap-4">
@@ -337,14 +337,15 @@ const CelebrationScene = () => {
                                             onClick={handleAcceptProposal}
                                             className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded-xl flex justify-center items-center"
                                         >
-                                            Olur! 🥂
+                                            Olur! 🎂
                                         </motion.button>
                                         <motion.button
                                             whileTap={{ scale: 0.95 }}
                                             onClick={() => setProposalResponse('maybe')}
                                             className="bg-white/10 hover:bg-white/20 text-white font-medium py-3 px-4 rounded-xl"
                                         >
-                                            Bakalım 🤔
+                                            Pastaya kanmam <br />
+                                            Hediyemi isterim 😒
                                         </motion.button>
                                     </div>
                                 </>
@@ -360,13 +361,13 @@ const CelebrationScene = () => {
                                                 🥳
                                             </motion.div>
                                             <h3 className="text-2xl font-bold text-white mb-2">Harika!</h3>
-                                            <p className="text-white/80">O zaman anlaştık! Detayları konuşuruz.</p>
+                                            <p className="text-white/80">O zaman anlaştık! Sıradaki organizasyonda görüşmek üzere. 😁</p>
                                         </>
                                     ) : (
                                         <>
-                                            <div className="text-6xl mb-4">😉</div>
-                                            <h3 className="text-2xl font-bold text-white mb-2">Haberleşiriz</h3>
-                                            <p className="text-white/80">Müsait olduğunda haber ver!</p>
+                                            <div className="text-6xl mb-4">🥳</div>
+                                            <h3 className="text-2xl font-bold text-white mb-2">Haklısın 😅</h3>
+                                            <p className="text-white/80">En kısa zamanda kargoda</p>
                                         </>
                                     )}
                                 </div>
