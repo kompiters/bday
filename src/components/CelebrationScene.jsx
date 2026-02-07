@@ -107,9 +107,7 @@ const CelebrationScene = () => {
             {showConfetti && <Confetti width={width} height={height} numberOfPieces={feedback === 'liked' ? 800 : 300} recycle={feedback === 'liked'} />}
 
             {/* DEBUG VERSION MARKER */}
-            <div className="fixed left-2 bottom-2 z-50 text-[10px] text-white/30 pointer-events-none">
-                v3.1 (Scroll Fixed)
-            </div>
+
 
             {/* Scroll Indicator - Right Side */}
             <motion.div
