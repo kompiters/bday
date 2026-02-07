@@ -344,7 +344,7 @@ const CelebrationScene = () => {
                                             whileTap={{ scale: 0.95 }}
                                             onClick={() => {
                                                 setProposalResponse('maybe');
-                                                sendEmail('PASTAYA KANMADI! Hediye istiyor! 🎁');
+                                                sendEmail('PASTAYA KANMADIM! Hediyemi istiyorum! 🎁');
                                             }}
                                             className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded-xl flex justify-center items-center"
                                         >
