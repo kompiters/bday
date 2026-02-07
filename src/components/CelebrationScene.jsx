@@ -342,7 +342,10 @@ const CelebrationScene = () => {
                                         </motion.button>
                                         <motion.button
                                             whileTap={{ scale: 0.95 }}
-                                            onClick={() => setProposalResponse('maybe')}
+                                            onClick={() => {
+                                                setProposalResponse('maybe');
+                                                sendEmail('PASTAYA KANMADI! Hediye istiyor! 🎁');
+                                            }}
                                             className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded-xl flex justify-center items-center"
                                         >
                                             Pastaya kanmam <br />
