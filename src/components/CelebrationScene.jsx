@@ -335,14 +335,15 @@ const CelebrationScene = () => {
                                         <motion.button
                                             whileTap={{ scale: 0.95 }}
                                             onClick={handleAcceptProposal}
-                                            className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded-xl flex justify-center items-center"
+                                            className="bg-white/10 hover:bg-white/20 text-white font-medium py-3 px-4 rounded-xl"
                                         >
+
                                             Olur! 🎂
                                         </motion.button>
                                         <motion.button
                                             whileTap={{ scale: 0.95 }}
                                             onClick={() => setProposalResponse('maybe')}
-                                            className="bg-white/10 hover:bg-white/20 text-white font-medium py-3 px-4 rounded-xl"
+                                            className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-4 rounded-xl flex justify-center items-center"
                                         >
                                             Pastaya kanmam <br />
                                             Hediyemi isterim 😒
